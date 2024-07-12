@@ -21,10 +21,10 @@ export default function UpdateEvent()
   return (
     <div className='grid grid-cols-2 h-[80vh] mt-6'>
       <div className='bg-gray-800 text-white flex justify-center items-center'>
-        <h1 className='text-6xl font-bold'>Update App {post_id}</h1>
+        <h1 className='text-6xl font-bold'>Update Blog {post_id}</h1>
       </div>
       <div className='p-6 '>
-        <h1 className='text-center font-semibold text-2xl'>Update App</h1>
+        <h1 className='text-center font-semibold text-2xl'>Update Blog</h1>
         
         <form onSubmit={handleSubmit} class="max-w-md mx-auto">
           <div class="mb-5">
