@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Layout from './Layout';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home"
+import Layout from "./Layout";
 import NoPage from './pages/NoPage';
 import AddEvent from './pages/AddEvent';
 import Event from './pages/Event';
@@ -17,11 +17,10 @@ import Profile from './pages/Profile';
 import Dashboard from './pages/Dashboard';
 import Footer from './pages/Footer';
 
-
 function App() {
 
   return (     
-     <BrowserRouter>     
+     <BrowserRouter>
     <UserProvider>
       <EventProvider>
 
