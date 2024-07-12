@@ -24,11 +24,14 @@ export default function AddEvent()
 
   }
   return (
-    <div>
+
+
+<section class="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnQlMjBwbGFubmluZ3xlbnwwfHwwfHx8MA%3D%3D">
+<div>
     { currentUser && currentUser.is_organizer?
     <div className='grid grid-cols-2 h-[80vh] mt-6'>
       <div className='bg-gray-800 text-white flex justify-center items-center'>
-        <h1 className='text-6xl font-bold'>Add New vent </h1>
+        <h1 className='text-6xl font-bold'>Add New Event </h1>
       </div>
       <div className='p-6 '>
         <h1 className='text-center font-semibold text-2xl'>Add Event</h1>
@@ -65,10 +68,13 @@ export default function AddEvent()
     </div>
     :
     <div>
-      <h1 className='text-3xl text-center'>You are not eventdateized to view this page</h1>
+      <h1 className='text-3xl text-center'></h1>
     </div>
 }
 
   </div>
+</section>
+
+
   )
 }
