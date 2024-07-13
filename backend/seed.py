@@ -31,8 +31,8 @@ def seed_data():
 
         # Events
         events = [
-            Event(event_name='Tech Conference 2024', description='A conference about the latest in tech.', event_date=datetime(2024, 9, 1, 9, 0), location='Tech Hall A', organizer_id=users[1].id),
-            Event(event_name='Music Festival', description='A fun music festival with various artists.', event_date=datetime(2024, 10, 15, 17, 0), location='Open Grounds', organizer_id=users[2].id)
+            Event(event_name='Digital Marketing Masterclass', description='Learn the latest strategies and tactics in digital marketing from leading experts in the field.', event_date=datetime(2024, 9, 1, 9, 0), location='Mombasa Inn', organizer_id=users[1].id),
+            Event(event_name='Cybersecurity Conference', description='Addressing emerging threats and best practices in cybersecurity with top professionals and government officials.', event_date=datetime(2024, 10, 15, 17, 0), location='Nairobi Greens', organizer_id=users[2].id)
         ]
 
         for event in events:
